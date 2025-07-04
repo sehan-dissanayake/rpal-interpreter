@@ -52,3 +52,4 @@ def test_function_call_with_punctuation():
     assert tokens[4].type == TokenType.STRING and tokens[4].value == "hello"
     assert tokens[5].type == TokenType.PUNCTUATION and tokens[5].value == ")"
     assert tokens[-1].type == TokenType.EOF
+

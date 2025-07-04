@@ -37,3 +37,4 @@ def lcrs_to_nary(lcrs_root, depth=0):
         child = child.right
 
     return nary_node
+

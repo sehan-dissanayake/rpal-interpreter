@@ -18,3 +18,5 @@ class CseErrorHandler:
         """
         self.cse_machine._print_cse_table()
         raise Exception(message)
+    
+    

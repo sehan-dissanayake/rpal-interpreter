@@ -226,3 +226,4 @@ class NodeFactory:
         node.children = children
         node.is_standardized = is_standardized
         return node
+    
